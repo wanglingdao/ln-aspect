@@ -23,15 +23,17 @@
     "grunt-exec": "^0.4.6",
     "grunt-jsdoc": "^0.5.7",
     "grunt-spm-server": "^0.1.1",
-    "load-grunt-tasks": "^0.6.0"
+    "load-grunt-tasks": "^0.6.0",
+    "matchdep": "^0.3.0"
   },
   "spm": {
     "main": "index.js",
-    "dependencies": {
-      "jquery": "1.11.1"
-    },
+    "dependencies": {},
     "devDependencies": {
-      "expect.js": "0.3.1"
+      "expect.js": "0.3.1",
+      "sinon": "1.6.0",
+      "nd-events": "0.0.0",
+      "nd-class": "0.0.0"
     }
   }
 }
